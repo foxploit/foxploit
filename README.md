@@ -1,7 +1,7 @@
 # 🦊 foxploit
 
 <p align="center">
-  <img src="./assets/banner.png" alt="foxploit banner" width="100%">
+  <img src="./banner.png" alt="foxploit banner" width="100%">
 </p>
 
 > **Perfil en remodelación** 🚧 — Este espacio está siendo reconstruido desde cero. Los proyectos de abajo existen y funcionan, pero están pendientes de documentación completa (README, arquitectura, demos). Vuelve pronto.
