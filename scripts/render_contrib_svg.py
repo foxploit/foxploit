@@ -14,6 +14,7 @@ Uso:
 
 import os
 import sys
+from datetime import date as _date
 import requests
 
 GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
@@ -27,8 +28,8 @@ query($userName: String!) {
         weeks {
           contributionDays {
             contributionCount
+            contributionLevel
             date
-            color
           }
         }
       }
@@ -41,6 +42,15 @@ CELL_SIZE = 11
 CELL_GAP = 3
 BG_COLOR = "#0d1117"
 TEXT_COLOR = "#c9d1d9"
+
+# Paleta morada (tema foxploit) sobre fondo oscuro
+LEVEL_COLORS = {
+    "NONE": "#161b22",
+    "FIRST_QUARTILE": "#4c1d95",
+    "SECOND_QUARTILE": "#6d28d9",
+    "THIRD_QUARTILE": "#8b5cf6",
+    "FOURTH_QUARTILE": "#c4b5fd",
+}
 
 
 def fetch_contributions(username: str, token: str) -> dict:
@@ -73,10 +83,10 @@ def build_svg(calendar: dict, username: str) -> str:
     for week_i, week in enumerate(weeks):
         for day in week["contributionDays"]:
             x = 20 + week_i * (CELL_SIZE + CELL_GAP)
-            # day["date"] weekday is implicit in order (Sun..Sat per GitHub API)
-            day_i = week["contributionDays"].index(day)
+            # Domingo=0 ... Sábado=6 (la primera semana puede estar incompleta)
+            day_i = (_date.fromisoformat(day["date"]).weekday() + 1) % 7
             y = 35 + day_i * (CELL_SIZE + CELL_GAP)
-            color = day["color"]
+            color = LEVEL_COLORS.get(day["contributionLevel"], LEVEL_COLORS["NONE"])
             delay = round((delay_index / max_delay_index) * 2.2, 3)
             cells.append(
                 f'<rect x="{x}" y="{y}" width="{CELL_SIZE}" height="{CELL_SIZE}" '
