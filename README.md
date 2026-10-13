@@ -4,7 +4,22 @@
   <img src="./banner.png" alt="foxploit banner" width="100%">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/CPTS-in%20progress-8b5cf6?style=flat-square" alt="CPTS in progress">
+  <img src="https://img.shields.io/badge/eJPT-starting-6d28d9?style=flat-square" alt="eJPT starting">
+  <img src="https://img.shields.io/badge/HackTheBox-Hacker-4c1d95?style=flat-square" alt="HackTheBox rank: Hacker">
+  <img src="https://img.shields.io/badge/CTF%20team-0xCORE-c4b5fd?style=flat-square" alt="CTF team: 0xCORE">
+</p>
+
 > **Perfil en remodelación** 🚧 — Este espacio está siendo reconstruido desde cero. Los proyectos de abajo existen y funcionan, pero están pendientes de documentación completa (README, arquitectura, demos). Vuelve pronto.
+
+<p align="center">
+  <a href="#-sobre-mí">Sobre mí</a> ·
+  <a href="#-actividad">Actividad</a> ·
+  <a href="#-proyectos-pendientes-de-remodelación-completa">Proyectos</a> ·
+  <a href="#-próximamente">Próximamente</a> ·
+  <a href="#-contacto">Contacto</a>
+</p>
 
 ---
 
@@ -16,7 +31,15 @@ Me gusta construir herramientas propias en lugar de depender solo de las existen
 
 ---
 
-[![Contribution heatmap — auto-refreshed daily](./contrib-heatmap.svg)](./contrib-heatmap.svg)
+## 📊 Actividad
+
+<p align="center">
+  <a href="./contrib-heatmap.svg">
+    <img src="./contrib-heatmap.svg" alt="Contribution heatmap — auto-refreshed daily" width="100%">
+  </a>
+</p>
+
+<p align="center"><sub>Se regenera automáticamente cada día a las 03:00 UTC.</sub></p>
 
 ---
 
@@ -48,7 +71,9 @@ Aplicación standalone para localizar gasolineras cercanas y comparar precios en
 - [ ] Subir **limscan** — herramienta modular de recon en bash
 - [ ] Writeups de máquinas de HackTheBox (PaperWork, SmartHIRE, Helix, CCTV, Kobold)
 
-### 🦊 Herramientas de ataque pendientes de desarrollar
+<details>
+<summary><strong>🦊 Herramientas de ataque pendientes de desarrollar</strong></summary>
+<br>
 
 - [ ] **Proxy MITM propio** — interceptación y manipulación de tráfico HTTP/HTTPS (al estilo Burp/mitmproxy, pero hecho desde cero)
 - [ ] **Port/service scanner** — escáner de puertos y fingerprinting de servicios, más rápido/ligero que nmap para recon inicial
@@ -61,6 +86,8 @@ Aplicación standalone para localizar gasolineras cercanas y comparar precios en
 - [ ] **Payload generator / encoder** — generación y ofuscación de payloads para evadir detección básica en entornos de laboratorio
 - [ ] **OSINT recon tool** — agregador de información pública sobre un dominio/empresa (empleados, tecnologías, leaks conocidos)
 - [ ] **Reverse shell manager** — gestor de listeners/shells múltiples con interfaz centralizada
+
+</details>
 
 ---
 
