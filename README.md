@@ -10,8 +10,6 @@
   </a>
 </p>
 
-<p align="center"><sub>Se regenera automáticamente cada día a las 03:00 UTC.</sub></p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/eJPT-exam%20planned%20early%202027-6d28d9?style=flat-square" alt="eJPT exam planned for early 2027">
   <img src="https://img.shields.io/badge/HackTheBox-Skilled-4c1d95?style=flat-square" alt="HackTheBox rank: Skilled">
