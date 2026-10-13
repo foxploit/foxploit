@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/HackTheBox-Skilled-4c1d95?style=flat-square" alt="HackTheBox rank: Skilled">
 </p>
 
-> **Perfil en remodelación** 🚧 — Este espacio está siendo reconstruido desde cero. Los proyectos de abajo existen y funcionan, pero están pendientes de documentación completa (README, arquitectura, demos). Vuelve pronto.
+> **Portfolio en desarrollo continuo** 🛠️ — Proyectos de ciberseguridad publicados y herramientas propias en evolución. Actualmente ampliando el portfolio, mejorando la documentación técnica y desarrollando nuevas herramientas de seguridad ofensiva.
 
 <p align="center">
   <a href="#-sobre-mí">Sobre mí</a> ·
