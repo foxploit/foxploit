@@ -1,0 +1,39 @@
+name: Update profile contribution art
+
+on:
+  schedule:
+    # Todos los días a las 03:00 UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate contribution heatmap SVG
+        env:
+          GH_USERNAME: foxploit
+          GH_TOKEN: ${{ secrets.PROFILE_PAT }}
+        run: python3 scripts/render_contrib_svg.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add contrib-heatmap.svg
+          git diff --staged --quiet || git commit -m "chore: refresh contribution heatmap"
+          git push

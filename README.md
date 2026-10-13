@@ -1,4 +1,4 @@
-# 🦊 foxploit
+<h1 align="center">🦊 foxploit</h1>
 
 <p align="center">
   <img src="./banner.png" alt="foxploit banner" width="100%">
@@ -10,9 +10,13 @@
 
 ## 👋 Sobre mí
 
-Estudiante de Ciberseguridad (HND Pearson BTEC, MSMK University) enfocado en **red team / offensive security**. Preparando la certificación **CPTS** (HTB Academy) y empezando con la **eJPT**. Activo en CTF con el equipo **0xCORE** — Hacker rank en HackTheBox.
+Estudiante de Ciberseguridad (HND Pearson BTEC, MSMK University) enfocado en **red team / offensive security**. Preparando la certificación **CPTS** (HTB Academy) y empezando con la **eJPT**. Activo en CTF con el equipo **0xCORE** — rango **Hacker** en HackTheBox.
 
 Me gusta construir herramientas propias en lugar de depender solo de las existentes: recon automatizado, detección de vulnerabilidades, y pequeños agentes que ayudan en el proceso ofensivo.
+
+---
+
+[![Contribution heatmap — auto-refreshed daily](./contrib-heatmap.svg)](./contrib-heatmap.svg)
 
 ---
 
@@ -20,8 +24,8 @@ Me gusta construir herramientas propias en lugar de depender solo de las existen
 
 Estos repos ya tienen código funcional. Cada uno va a recibir su propio `README.md` con explicación de arquitectura, instalación y demo — de momento, aquí va el resumen:
 
-### 🧩 Natas Auto-Solver
-Script que automatiza la resolución de los niveles del wargame **Natas** (OverTheWire), encadenando técnicas de explotación nivel a nivel.
+### 🧩 [Natas Auto-Solver](https://github.com/foxploit/overthewire-solver)
+Script que automatiza la resolución de los niveles del wargame **Natas** (OverTheWire) — **34/34 niveles resueltos**, encadenando técnicas de explotación nivel a nivel.
 *Pendiente: documentación de cada técnica usada por nivel.*
 
 ### 🧨 SSTI-Python
@@ -33,7 +37,7 @@ Herramienta/proceso para el análisis y reporte de intentos de phishing.
 *Pendiente: documentación del flujo de análisis.*
 
 ### ⛽ Fuel Radar
-Aplicación standalone para localizar gasolineras cercanas y comparar precios.
+Aplicación standalone para localizar gasolineras cercanas y comparar precios en tiempo real.
 *Pendiente: README con stack y capturas.*
 
 ---
@@ -63,4 +67,4 @@ Aplicación standalone para localizar gasolineras cercanas y comparar precios.
 ## 📫 Contacto
 
 - GitHub: [@foxploit](https://github.com/foxploit)
-- HackTheBox: nivel 40, rango Hacker — equipo 0xCORE
+- HackTheBox: nivel 40, rango Skilled
