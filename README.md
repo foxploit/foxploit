@@ -5,17 +5,22 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CPTS-in%20progress-8b5cf6?style=flat-square" alt="CPTS in progress">
-  <img src="https://img.shields.io/badge/eJPT-starting-6d28d9?style=flat-square" alt="eJPT starting">
-  <img src="https://img.shields.io/badge/HackTheBox-Hacker-4c1d95?style=flat-square" alt="HackTheBox rank: Hacker">
-  <img src="https://img.shields.io/badge/CTF%20team-0xCORE-c4b5fd?style=flat-square" alt="CTF team: 0xCORE">
+  <a href="./contrib-heatmap.svg">
+    <img src="./contrib-heatmap.svg" alt="Contribution heatmap — auto-refreshed daily" width="100%">
+  </a>
+</p>
+
+<p align="center"><sub>Se regenera automáticamente cada día a las 03:00 UTC.</sub></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/eJPT-exam%20planned%20early%202027-6d28d9?style=flat-square" alt="eJPT exam planned for early 2027">
+  <img src="https://img.shields.io/badge/HackTheBox-Skilled-4c1d95?style=flat-square" alt="HackTheBox rank: Skilled">
 </p>
 
 > **Perfil en remodelación** 🚧 — Este espacio está siendo reconstruido desde cero. Los proyectos de abajo existen y funcionan, pero están pendientes de documentación completa (README, arquitectura, demos). Vuelve pronto.
 
 <p align="center">
   <a href="#-sobre-mí">Sobre mí</a> ·
-  <a href="#-actividad">Actividad</a> ·
   <a href="#-proyectos-pendientes-de-remodelación-completa">Proyectos</a> ·
   <a href="#-próximamente">Próximamente</a> ·
   <a href="#-contacto">Contacto</a>
@@ -25,21 +30,9 @@
 
 ## 👋 Sobre mí
 
-Estudiante de Ciberseguridad (HND Pearson BTEC, MSMK University) enfocado en **red team / offensive security**. Preparando la certificación **CPTS** (HTB Academy) y empezando con la **eJPT**. Activo en CTF con el equipo **0xCORE** — rango **Hacker** en HackTheBox.
+Estudiante de 2.º de Ciberseguridad y Data Intelligence (MSMK University) con base en **pentesting web y seguridad ofensiva**, con el objetivo de especializarme en red team y crecer hacia purple team. Preparando la certificación **eJPT**, examen previsto a principios de 2027.
 
-Me gusta construir herramientas propias en lugar de depender solo de las existentes: recon automatizado, detección de vulnerabilidades, y pequeños agentes que ayudan en el proceso ofensivo.
-
----
-
-## 📊 Actividad
-
-<p align="center">
-  <a href="./contrib-heatmap.svg">
-    <img src="./contrib-heatmap.svg" alt="Contribution heatmap — auto-refreshed daily" width="100%">
-  </a>
-</p>
-
-<p align="center"><sub>Se regenera automáticamente cada día a las 03:00 UTC.</sub></p>
+Practico en Hack The Box (rango **Skilled**, 22 máquinas resueltas: 13 fáciles, 8 medias y 1 difícil) y desarrollo mis propias herramientas en Python y Bash en lugar de depender solo de las existentes.
 
 ---
 
@@ -48,12 +41,18 @@ Me gusta construir herramientas propias en lugar de depender solo de las existen
 Estos repos ya tienen código funcional. Cada uno va a recibir su propio `README.md` con explicación de arquitectura, instalación y demo — de momento, aquí va el resumen:
 
 ### 🧩 [Natas Auto-Solver](https://github.com/foxploit/overthewire-solver)
-Script que automatiza la resolución de los niveles del wargame **Natas** (OverTheWire) — **34/34 niveles resueltos**, encadenando técnicas de explotación nivel a nivel.
-*Pendiente: documentación de cada técnica usada por nivel.*
+Herramienta en Python y Bash que resuelve de forma automática todos los niveles del wargame **Natas** (OverTheWire): manipulación de cookies, bypass de acceso, encoding, path traversal y fuzzing.
+*Pendiente: añadir los niveles de Bandit y un menú interactivo.*
 
-### 🧨 SSTI-Python
-Detector y probador de payloads de **Server-Side Template Injection** en Python — identifica el motor de plantillas y lanza los payloads correspondientes.
+### 🧨 SSTI Detection Tool
+Herramienta en Python que detecta **Server-Side Template Injection** con payloads multi-motor. Versión original validada en un CTF de Hack The Box; la estoy reescribiendo desde cero.
 *Pendiente: README con motores soportados y ejemplos de uso.*
+
+### 🔀 Pull request a Tailscale ([tailscale-android #892](https://github.com/tailscale/tailscale-android/pull/892)) — Abierto
+Detecté que el DNS quedaba mal configurado al desconectar y reconectar el Wi-Fi muy rápido, y propuse un arreglo para reconfigurarlo solo cuando hay una configuración nueva pendiente.
+
+### 🏠 Homelab
+Servidor Proxmox con unas 10 máquinas virtuales, monitorización con Beszel y actualizaciones automatizadas mediante scripts. Incluye Home Assistant y un gestor de inventario.
 
 ### 🛡️ Phishing Report
 Herramienta/proceso para el análisis y reporte de intentos de phishing.
