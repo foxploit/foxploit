@@ -8,16 +8,6 @@
 
 </div>
 
-```
-┌──(Adrián@foxploit)-[~]
-└─$ cat profile.txt
-
-  role      pentesting web / seguridad ofensiva → red team → purple team
-  status    HTB Skilled · lvl 40 · 22 boxes (13 easy / 8 medium / 1 hard)
-  next      eJPT, examen a inicios de 2027
-  builds    herramientas propias en Python/Bash, no solo las de siempre
-```
-
 <div align="center">
   <a href="./contrib-heatmap.svg"><img src="./contrib-heatmap.svg" width="80%"></a>
 </div>
