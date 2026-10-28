@@ -9,7 +9,7 @@
 </div>
 
 ```
-┌──(rodor@foxploit)-[~]
+┌──(Adrián@foxploit)-[~]
 └─$ cat profile.txt
 
   role      pentesting web / seguridad ofensiva → red team → purple team
