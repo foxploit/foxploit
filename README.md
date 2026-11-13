@@ -25,6 +25,8 @@
 </tr>
 </table>
 
+---
+
 <table>
 <tr>
 <td width="50%"><img src="cards/pentest-auto.svg" width="100%" alt="Scanner web autónomo: en curso, repositorio privado." /></td>
@@ -48,7 +50,7 @@
 </tr>
 </table>
 
-## $ stats
+---
 
 <table>
 <tr>
@@ -56,8 +58,6 @@
 <td width="50%"><img src="https://streak-stats.demolab.com/?user=foxploit&theme=tokyonight&hide_border=true&background=0D0D14&ring=A78BFA&fire=C084FC&currStreakLabel=A78BFA" width="100%" alt="Racha de contribuciones en GitHub" /></td>
 </tr>
 </table>
-
-## $ exit 0
 
 > No pentesteo sin permiso por escrito. No desarrollo malware.
 
