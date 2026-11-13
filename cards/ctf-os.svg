@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='440' height='200' viewBox='0 0 440 200'>
+<rect width='440' height='200' rx='18' fill='#15151f'/>
+<rect width='6' height='200' rx='3' fill='#8b5cf6'/>
+<text x='28' y='46' font-family='Fira Code, Consolas, monospace' font-size='13' letter-spacing='2' fill='#8b5cf6'>PRÓXIMAMENTE EN GITHUB</text>
+<text x='28' y='86' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='28' font-weight='700' fill='#e4e4e7'>SO para CTF</text>
+<text x='28' y='120' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='15' fill='#a1a1aa'>Arch + BlackArch · Hyprland</text>
+<text x='28' y='144' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='15' fill='#a1a1aa'>Cronómetro por fase de cada CTF</text>
+</svg>
