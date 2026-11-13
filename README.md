@@ -14,6 +14,8 @@
   <img src="https://img.shields.io/badge/Madrid-Espa%C3%B1a-A78BFA?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Madrid, España" />
 </p>
 
+# Proyectos Públicos
+
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/foxploit/gtx-trading-api-security-review"><img src="cards/gtx.svg" width="100%" alt="GTX Trading API: revisión de seguridad de una API de trading. Repo público." /></a></td>
@@ -25,7 +27,7 @@
 </tr>
 </table>
 
----
+# Proyectos Privados
 
 <table>
 <tr>
@@ -37,7 +39,7 @@
 </tr>
 </table>
 
----
+# Mis Logros
 
 <table>
 <tr>
@@ -50,7 +52,7 @@
 </tr>
 </table>
 
----
+# Estadísticas
 
 <table>
 <tr>
@@ -59,6 +61,6 @@
 </tr>
 </table>
 
-> No pentesteo sin permiso por escrito. No desarrollo malware.
+> No realizo pentestings sin permiso por escrito. No desarrollo malware.
 
 <p align="center"><sub>rooted by foxploit</sub></p>
