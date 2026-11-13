@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='880' height='240' viewBox='0 0 880 240'>
+<rect width='880' height='240' rx='18' fill='#15151f'/>
+<rect width='6' height='240' rx='3' fill='#3b82f6'/>
+<text x='28' y='46' font-family='Fira Code, Consolas, monospace' font-size='13' letter-spacing='2' fill='#3b82f6'>HOMELAB Y UNIVERSIDAD · PRIVADO</text>
+<text x='28' y='86' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='28' font-weight='700' fill='#e4e4e7'>Otros proyectos</text>
+<text x='28' y='120' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='16' fill='#c4c4cc'>Homelab: Proxmox, OPNsense, Frigate, Vaultwarden, Caddy · 10 sistemas</text>
+<text x='28' y='146' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='16' fill='#c4c4cc'>Casa automatizada: cámaras Tapo, persianas LocalTuya, IoT aislado por firewall</text>
+<text x='28' y='172' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='16' fill='#c4c4cc'>Inventario sobre Grocy: códigos de barras por ubicación y recetas con IA</text>
+<text x='28' y='198' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='16' fill='#c4c4cc'>Red corporativa: Cisco Packet Tracer, VLSM y zona DMZ</text>
+</svg>

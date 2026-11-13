@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='440' height='200' viewBox='0 0 440 200'>
+<rect width='440' height='200' rx='18' fill='#15151f'/>
+<rect width='6' height='200' rx='3' fill='#8b5cf6'/>
+<text x='28' y='46' font-family='Fira Code, Consolas, monospace' font-size='13' letter-spacing='2' fill='#8b5cf6'>HTB ACADEMY</text>
+<text x='28' y='86' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='28' font-weight='700' fill='#e4e4e7'>Pentesting web</text>
+<text x='28' y='120' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif' font-size='16' fill='#c4c4cc'>Ruta de pentesting de aplicaciones web</text>
+<rect x='28' y='160' width='384' height='8' rx='4' fill='#2a2a3a'/>
+<rect x='28' y='160' width='115.2' height='8' rx='4' fill='#8b5cf6'/>
+<text x='28' y='184' font-family='Fira Code, Consolas, monospace' font-size='12' fill='#c4c4cc'>6/20</text>
+</svg>
